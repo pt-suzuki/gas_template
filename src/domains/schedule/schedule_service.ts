@@ -1,6 +1,7 @@
 import { getDate } from "../../helper/date_helper";
 import { Schedule } from "./schedule";
 import { ScheduleCriteria } from "./schedule_criteria";
+import { ScheduleRepository } from "./schedule_repository";
 import { ScheduleTranslator } from "./schedule_translator";
 
 export interface ScheduleService {
@@ -9,9 +10,11 @@ export interface ScheduleService {
 
 export class ScheduleServiceImpl implements ScheduleService {
   private translator: ScheduleTranslator;
+  // private repository: ScheduleRepository;
 
-  constructor(translator: ScheduleTranslator) {
+  constructor(translator: ScheduleTranslator, _: ScheduleRepository) {
     this.translator = translator;
+    // this.repository = repository;
   }
 
   search(criteria: ScheduleCriteria): Schedule[] {

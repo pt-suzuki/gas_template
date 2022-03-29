@@ -1,4 +1,4 @@
-import { scheduleSearchAction } from './provider/controller/index';
+import { scheduleSearchAction } from './provider/controller';
 
 declare const global: any;
 

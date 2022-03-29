@@ -70,4 +70,4 @@ jobs:
           ) > ./.clasp.json
       - name: Upload files
         if: ${{ env.CLASPRC_ACCESS_TOKEN != '' && env.CLASPRC_ID_TOKEN != '' && env.CLASPRC_EXPIRY_DATE != '' && env.CLASPRC_REFRESH_TOKEN != '' && env.CLASPRC_CLIENT_ID != ''&& env.CLASPRC_CLIENT_SECRET != '' && env.CLASP_SCRIPT_ID != ''}}
-        run: npx @google/clasp push --force
+        run: npm run push

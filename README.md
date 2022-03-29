@@ -24,6 +24,8 @@ vim .clasp.json
 ```
 
 ``` json
+　
+#.clasp.json
 
 # プロジェクトからscriptIdをコピーして入力する
 

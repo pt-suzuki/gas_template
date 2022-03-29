@@ -1,4 +1,4 @@
-import { Schedule } from "./Schedule";
+import { Schedule } from "./schedule";
 import { ScheduleCriteria } from "./schedule_criteria";
 
 export interface ScheduleTranslator {

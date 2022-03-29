@@ -1,4 +1,4 @@
-import { Schedule } from '../domains/schedule/Schedule';
+import { Schedule } from '../domains/schedule/schedule';
 
 export interface ScheduleSearchResponder {
   invoke(result: Schedule[]): GoogleAppsScript.Content.TextOutput;

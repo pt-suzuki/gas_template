@@ -1,5 +1,5 @@
 import { getDate } from "../../helper/date_helper";
-import { Schedule } from "./Schedule";
+import { Schedule } from "./schedule";
 import { ScheduleCriteria } from "./schedule_criteria";
 import { ScheduleTranslator } from "./schedule_translator";
 

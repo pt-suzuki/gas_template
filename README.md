@@ -15,6 +15,20 @@ npm run install
 #claspをグローバルでインストールしておく
 npm install -g clasp
 
+# .clasp.sample.jsonをコピー
+cp .clasp.sample.json　.clasp.json
+
+# コピーした.clasp.jsonを編集
+vim .clasp.json
+
+```
+
+``` json
+
+# プロジェクトからscriptIdをコピーして入力する
+
+{"scriptId":"ここに入力","rootDir":"./dist"}
+
 ```
 
 ## ビルド

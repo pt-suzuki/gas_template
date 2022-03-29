@@ -58,7 +58,7 @@ npm run lint:fix
 
 ```
 
-## ビルド&デプロイ
+## デプロイ
 
 ``` shell
 

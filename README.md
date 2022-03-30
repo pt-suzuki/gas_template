@@ -66,3 +66,18 @@ npm run lint:fix
 npm run deploy
 
 ```
+
+## GithubAction
+
+### .clasprc.jsonからコピーして入力する
+
+- CLASPRC_ACCESS_TOKEN
+- CLASPRC_CLIENT_ID
+- CLASPRC_CLIENT_SECRET
+- CLASPRC_EXPIRY_DATE
+- CLASPRC_ID_TOKEN
+- CLASPRC_REFRESH_TOKEN
+
+### スプレッドシートのscriptIdをコピーして入力する
+
+- CLASP_SCRIPT_ID
